@@ -1,0 +1,289 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 180%;
+    background-color: rgb(63, 195, 230);
+    border-top: solid 30px rgba(18, 18, 20, 0.924);
+    border-bottom: solid 30px rgba(18, 18, 20, 0.924) ;
+    height: 100PX;
+}
+.menu {
+    height: inherit;
+}
+header ul{
+    display: flex;
+    height: inherit;
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+}
+header ul li{
+    height: inherit;
+}
+.header a {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px ;
+    height: inherit;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    margin: 0px;
+    padding-left: 10px;
+    height: 100px;
+}
+.logo img{
+    height: inherit;
+    overflow: hidden;
+}
+
+body{
+    background: rgba(19, 23, 42, 0.863);
+}
+
+.mega{
+    width: 1300px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;  
+}
+
+.mega_final{
+    width: 1550px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    background-color: rgba(18, 18, 26, 0.835);
+    margin: 0px 0px 10px 0px;
+    border-bottom: solid 30px rgba(18, 30, 37, 0.678) ;
+}
+.hero ul{
+    font-size: 60%;
+}
+.hero_text_box{
+    justify-self: left;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 180%;
+    font-stretch: condensed;
+    line-height: 120%;
+    letter-spacing: -.2px;
+    color: white;
+    padding: 30px;
+}
+.hero_text_box strong{
+    color:rgb(42, 50, 170);
+}
+.hero_image_box{    
+    align-self: center;
+    justify-self: right;
+}
+.hero_image_container{
+    border: 10px groove rgb(17, 20, 68);
+    padding: 5px;
+    height: 300px;
+    width: 250px;
+} 
+.hero_image{
+    height: 300px;
+    width: 250px;
+}
+
+h3,h4{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 180%;
+    }
+h2{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 300%;
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.767);;
+}
+
+.resume{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150%;
+    line-height: 95%;
+}
+
+.subs{
+    color: rgb(83, 195, 230);
+}
+
+.sections{
+    border: rgba(0, 0, 0, 0.246) solid 1px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.767);
+} 
+.sections p{
+    text-align: justify;
+}
+.sections a{
+    text-decoration: none;
+    color:rgb(63, 195, 230);
+}
+
+.references{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.reference_container{
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    border: rgba(0, 0, 0, 0.246) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.references a{
+    margin: inherit;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.references img{
+    margin: inherit;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.references article{
+    margin: 10px 100px;
+    margin-top: -50px;
+    width: 300px;
+    border: rgba(0, 0, 0, 0.246) solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    font-size: 80%;
+}
+.references P{
+    margin-top: -10PX;
+}
+
+.references div article{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.email{
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(63, 195, 230);
+    margin: 0px;
+    padding: 20px;
+    border-top: solid 30px rgba(18, 18, 20, 0.924);
+    border-bottom: solid 30px rgba(18, 18, 20, 0.924) ;
+}
+
+.contact div h3{
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(42, 50, 170);
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.contact div h4{
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 120%;
+    color: rgba(18, 18, 26, 0.965);
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+}
+.div_socialImages{
+    display: flex;
+    align-content: center;
+}
+.social_container{
+    width: 80px;
+    height: 80px;
+    margin: 25px 10px;
+    padding: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.social_container a{
+    margin: 0px;
+    width: inherit;
+    height: inherit;
+    
+}
+.social_container img{
+    margin: 0px;
+    width: inherit;
+    height: inherit;
+}
+.email_field{
+    border-color: rgba(18, 18, 26, 0.363);
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 20px;
+    background-image: url(https://lh3.googleusercontent.com/proxy/3cjY0wnigIZTXXSXt54RcmMSj8Z3NuDCDdXg7L9OiztQVXGrafgdlvTyEInTvhCC1aoFNtUQj0_C9Ej1XcA3eyph);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position: 5px;
+    background-size: 15px;
+}
+.email-button{
+    border-color: rgba(18, 18, 26, 0.363);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(63, 195, 230);
+    color: rgba(18, 18, 26, 0.363);
+}
+.footer{
+    color: white;
+    background-color: rgba(18, 18, 26, 0.965);
+    display: flex;
+    margin: 0px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+footer div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer a{
+    text-decoration: none;
+}
